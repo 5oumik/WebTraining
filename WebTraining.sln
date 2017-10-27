@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebTraining", "MVCWebTraining\MVCWebTraining.csproj", "{19388346-A900-4783-8B43-DCB661EC8636}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTraining", "WebTraining\WebTraining.csproj", "{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19388346-A900-4783-8B43-DCB661EC8636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19388346-A900-4783-8B43-DCB661EC8636}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19388346-A900-4783-8B43-DCB661EC8636}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19388346-A900-4783-8B43-DCB661EC8636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
