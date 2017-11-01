@@ -6,18 +6,23 @@ using System.Web.Mvc;
 
 namespace WebTraining.Controllers
 {
-    public class TrainingController : Controller
+    public class HomeController : Controller
     {
-        // GET: Training
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Welcome(string name, int numTimes = 1)
+        public ActionResult About()
         {
-            ViewBag.Message = "Hello" + name;
-            ViewBag.NumTimes = numTimes;
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
