@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTraining", "WebTraining\WebTraining.csproj", "{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeTierAspNet", "ThreeTierAspNet\ThreeTierAspNet.csproj", "{75568517-9D48-4A6E-B2ED-B00198687BF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{372C6830-5A89-4A0A-B065-E1DEA9BB3BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75568517-9D48-4A6E-B2ED-B00198687BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75568517-9D48-4A6E-B2ED-B00198687BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75568517-9D48-4A6E-B2ED-B00198687BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75568517-9D48-4A6E-B2ED-B00198687BF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
