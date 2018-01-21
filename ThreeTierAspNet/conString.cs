@@ -10,9 +10,9 @@ namespace ThreeTierAspNet
 {
     public class conString
     {
-        public static SqlConnection con;
+        public SqlConnection con;
 
-        static conString()
+        public conString()
         {
             con = new SqlConnection(ConfigurationManager.ConnectionStrings["WebDB"].ConnectionString);
         }

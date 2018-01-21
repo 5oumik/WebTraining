@@ -12,5 +12,18 @@ namespace ThreeTierAspNet
         public string Address { get; set; }
         public long MobileNo { get; set; }
 
+        public bool Save()
+        {
+            try
+            {
+                DAL dal = new DAL();
+                dal.RegisterData(Username, Password, Address, MobileNo);
+                return true;
+            }
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }
